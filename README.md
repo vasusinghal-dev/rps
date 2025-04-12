@@ -1,7 +1,5 @@
 # Rock Paper Scissors Game
 
-![Game Screenshot](screenshot.png) <!-- Add a screenshot if available -->
-
 A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript. Play against the computer with mouse or keyboard controls, track your score, and enjoy auto-play mode.
 
 ## Features
