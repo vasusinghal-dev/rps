@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15%;
+  background-color: #1e1e1e;
+  border-bottom: 2px solid #333;
+}
+
+.logo-container img {
+  height: 60px;
+}
+
+.navbar h1 {
+  font-family: "Bungee Spice", cursive;
+  font-size: 42px;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: color 0.3s, fontSize 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff6b00;
+  font-size: 24px;
+}

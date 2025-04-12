@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 30px;
+}
+
+.rps-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15%;
+  margin-top: 5%;
+}
+
+.rps-buttons button {
+  background: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.rps-buttons button:hover {
+  transform: scale(1.3);
+}
+
+.result-display {
+  text-align: center;
+  margin: 100px 0 50px;
+}
+
+.moves {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.move p {
+  font-size: 18px;
+}
+
+.move img {
+  height: 80px;
+  margin-top: 10px;
+}
+
+.score {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 5%;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button img {
+  transition: backgroundColor 0.3s;
+}
+
+.controls button:hover img {
+  background-color: palegoldenrod;
+}
